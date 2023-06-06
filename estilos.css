@@ -1,10 +1,15 @@
 body {
-    background-color:#beb5a9; /* color de fondo */
-    font-size: 20px;
+  /*background: linear-gradient(to bottom right, #171717, #000000);/* Degradado de colores */
+  background-color: #171717;
+  font-family: Arial, sans-serif; /* Fuente del texto */
+  margin: 0; /* Elimina el margen por defecto del body */
+  padding: 0; /* Elimina el padding por defecto del body */
+  color:rgb(219, 219, 219);
+
   }
   .container {
-    font-family:Helvetica, sans-serif;
-    color:#241f1f;
+    font-family:sans-serif;
+    
     max-width: 800px;
     margin: auto;
     padding: 20px;
@@ -17,14 +22,19 @@ body {
   }
   .video{
    display: flex;
-   
+   /*background: linear-gradient(rgb(23, 22, 18),rgba(11, 226, 168, 0.5));*/
+    background-color: #171717;
     align-items: center;
    
-    color:red;
+   border-radius: 20px;
+    
     gap: 50px;
     justify-content: center;
     padding: 50px;
-  
+    border: cadetblue;
+    box-shadow: 10px 10px 10px rgba(11, 226, 168, 0.5);
+
+    
     
   }
  footer{
@@ -33,9 +43,11 @@ body {
    align-items: center;
    font-family:Helvetica, sans-serif;
    font-size: 20px;
-  
-   background-color: white;
-    min-height: 200px;
+   background-color: #181818;
+   border-top: 1px solid black;
+   border-color:  rgba(11, 226, 168, 0.5);
+   /* background: linear-gradient(rgba(23, 22, 18, 0.511),rgba(11, 226, 169, 0.133));
+    */min-height: 200px;
     justify-content: center;
     text-align: center;
 
@@ -43,7 +55,7 @@ body {
   .img{
     border:#330f1c;
     border-image-width: 0px;
-    border-color: #330f1c;
+    border-color: #c6c6c6;
     border-style: solid;
   
   }
@@ -96,6 +108,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    box-shadow: 1px 5px 10px rgba(11, 226, 168, 0.5);
   }
   
   
