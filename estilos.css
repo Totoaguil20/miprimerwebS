@@ -140,10 +140,11 @@ body {
   
 
   a {
+    margin: 10px;
     color:rgb(255, 255, 255);
     text-decoration:none;
     font-weight: 900;
-    font-style: italic;
+    
   }
   
   
@@ -191,13 +192,13 @@ body {
     .nav-links.nav-links-responsive {
       position: absolute;
       display: flex;
-      background-color: rgba(20,20,20,0.95);
+      background-color: rgba(20, 20, 20, 0.918);
       width: 100%;
       height: 100%;
-      top: 70px;
+      top: 10px;
       left: 0;
       flex-direction: column;
-      padding-top: 200px;
+      padding-top: 50px;
       align-items: center;
       gap:70px;
       font-size: 40px;
