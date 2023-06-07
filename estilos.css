@@ -62,14 +62,82 @@ body {
     text-align: center;
 
  }
-  .img{
-    border:#330f1c;
-    border-image-width: 0px;
-    border-color: #c6c6c6;
-    border-style: solid;
+ .imageSlider{
   
-  }
+   overflow: hidden;
+   height: 720px;
+   width: 1280px;
+   margin: 50px auto 0;
+   
+ }
+ #switchButton{
+  border-color:#a530db82 ;
+  height: 90%;
+  width: 10%;
+  background-color: rgba(195, 202, 208, 0);
+  color:#ebebeb;
+  box-shadow:1px 1px 5px #a530db82;
+  display: flex;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight:800;
+  width: auto;
+ }
+ .gallery-images{
+  display: flex;
+  justify-content: center;
+  margin-left:200px;
+  padding: 5px;
+  margin-bottom: 50px;
+ }
+ .slider-container{
+  display: flex;
+  max-width: 99%;
+
+  /*background: linear-gradient(rgba(165, 48, 219, 0.511),rgba(90, 62, 91, 0.133));
+  */
+  box-shadow:1px 1px 50px rgba(165, 48, 219, 0.511);
+  border-radius: 20px;
+  height: 800px;
+  width: 1500px;
+  margin: auto;
+  margin-bottom: 20px;
+ }
+.img {
+  max-width: 99%;
+  max-height: 99%;
+ 
+}
+.button-slider{
+  border: none;
+  height: 90%;
+  width: 10%;
+  background-color: rgba(240, 248, 255, 0);
+  color:#0be2a880;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
   
+}
+.button-slider:hover{ 
+  border: none;
+  height: 90%;
+  width: 10%;
+  background-color: rgba(70, 68, 68, 0.319);
+  color:#0be2a880;
+  font-size: 60px;
+}
+#anterior{
+  left: 0;
+  position: absolute;
+}
+#siguente{
+  right: 0;
+  position: absolute;
+}
+
+
+
   .row {
     border:#330f1c;
     border-radius: 15px;
