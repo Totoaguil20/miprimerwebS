@@ -8,6 +8,7 @@
   <nav class="navbar" role="navigation"></nav>
 </head>
 <body>
+  <script src="funciones.js"></script> 
   <div class="container-nav">
     <nav class="navbar">
       <a href="#" class="brand">Mi página web</a>
@@ -23,8 +24,9 @@
   </div>
   <div class="container">
     <h1>Galeria de Fotos</h1>
-    
-    <button id="switchButton" class="button-switch" onclick="toggleView()">Ver vista galería de imágenes</button>
+    <div class="botoncito"></div>
+         <button id="switchButton" class="button-switch" onclick="toggleView()">Ver vista galería de imágenes</button>
+    </div>
   </div>
   
   <div class="slider-container">
@@ -34,22 +36,23 @@
     </div>
 
     <div class="imageSlider">
-      <img src="img/imagen1.jpg" id="img1">
-      <img src="img/imagen2.jpg" id="img2">
-      <img src="img/imagen3.jpg" id="img3">
-      <img src="img/imagen4.jpg" id="img4">
+      <img class="imagenes" src="img/imagen1.jpg" id="img1">
+      <img class="imagenes"src="img/imagen2.jpg" id="img2">
+      <img class="imagenes"src="img/imagen3.jpg" id="img3">
+      <img class="imagenes"src="img/imagen4.jpg" id="img4">
     </div>
   </div>
   <div class="gallery-images">
-    <img src="img/imagen1.jpg" width="700" height="400">
-    <img src="img/imagen2.jpg"width="700" height="400">
-    <img src="img/imagen3.jpg"width="700" height="400">
-    <img src="img/imagen4.jpg"width="700" height="400">
+
+    <img  class="img-galeria" src="img/imagen1.jpg" width="700" height="400">
+    <img  class="img-galeria"src="img/imagen2.jpg"width="700" height="400">
+    <img  class="img-galeria"src="img/imagen3.jpg"width="700" height="400">
+    <img  class="img-galeria"src="img/imagen4.jpg"width="700" height="400">
   </div>
 </div>
 
 
-  <script src="funciones.js"></script>
+  
   
     
     
